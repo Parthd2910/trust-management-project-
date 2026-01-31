@@ -1,0 +1,128 @@
+{
+  "TestNode": {
+    "cert_id": "af3ee02a-8ef5-4f24-b50d-f06c45ff2d30",
+    "device_id": "TestNode",
+    "public_key_pem": "fake_public_key",
+    "revoked": false,
+    "issued_at": "2025-10-02T20:08:28.467412Z"
+  },
+  "DESKTOP-BLT1V2B": {
+    "cert_id": "4b626b8c-1219-4bd0-808c-06205371e37c",
+    "device_id": "DESKTOP-BLT1V2B",
+    "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmNFrvSt4T1uAPGSeNbHT\nA4B+gERe9f28Cl3XDQ4Zkdkh6HD5mq1XTpScosHjku3957n9KocnmRsjBmb0m8Wf\nIopjwPj1rABSwnZa7O6a6ZknZNBZcP4Q0uvp/nTmaqk25rZXrpWQ/ELAk1HB2exD\njHb/bNTxWvvmWn93D70Hfo32RlwlFbwrLt2CnY7tHsORh5WxHAY06oweVLh5hklx\nDHTs/bLw/EumOaGV031p6naSyf/rnk4EgKo0auSjq8oUn2Gbngo4ZXZqI6g5RXQO\nC0ZKNAVlDk930gRk8UyvD0MK/UX4slNwS3IdPtpztWe9Pc0PiI76CxPL2NWtXQeG\nCwIDAQAB\n-----END PUBLIC KEY-----\n",
+    "revoked": false,
+    "issued_at": "2025-09-14T16:06:53.555836Z"
+  },
+  "224.0.0.251": {
+    "cert_id": "03561dc1-7ae2-49b6-b6fc-f29b2e0a211e",
+    "device_id": "224.0.0.251",
+    "public_key_pem": "auto_generated",
+    "revoked": false,
+    "issued_at": "2025-09-14T17:53:00.203714Z"
+  },
+  "192.168.0.255": {
+    "cert_id": "c2f2dc0a-905a-4ab9-8f94-4009d3df3bb9",
+    "device_id": "192.168.0.255",
+    "public_key_pem": "auto_generated",
+    "revoked": false,
+    "issued_at": "2025-09-14T17:53:19.391013Z"
+  },
+  "224.0.0.2": {
+    "cert_id": "a260ec97-36b7-4a5a-90dc-fd5e89911b43",
+    "device_id": "224.0.0.2",
+    "public_key_pem": "auto_generated",
+    "revoked": false,
+    "issued_at": "2025-09-14T17:53:38.426587Z"
+  },
+  "239.255.255.250": {
+    "cert_id": "5c89143e-60e1-40d1-8d09-91bd0c2a7445",
+    "device_id": "239.255.255.250",
+    "public_key_pem": "auto_generated",
+    "revoked": false,
+    "issued_at": "2025-09-14T17:53:57.429135Z"
+  },
+  "224.0.0.252": {
+    "cert_id": "6c5dd3cb-899e-4cc7-a4d6-3ffeee19f3cb",
+    "device_id": "224.0.0.252",
+    "public_key_pem": "auto_generated",
+    "revoked": false,
+    "issued_at": "2025-09-14T17:54:16.404796Z"
+  },
+  "255.255.255.255": {
+    "cert_id": "5b43896e-aa3e-4e72-9650-bbbd3caf80bd",
+    "device_id": "255.255.255.255",
+    "public_key_pem": "auto_generated",
+    "revoked": false,
+    "issued_at": "2025-09-14T17:54:35.403910Z"
+  },
+  "192.168.0.1": {
+    "cert_id": "7a5c0180-c065-41f8-8c9f-0cc70da49ad3",
+    "device_id": "192.168.0.1",
+    "public_key_pem": "auto_discovered",
+    "revoked": false,
+    "issued_at": "2025-10-01T07:16:59.347299Z"
+  },
+  "224.0.0.22": {
+    "cert_id": "fdeefef2-515d-44fa-9dcc-77d29955c8ca",
+    "device_id": "224.0.0.22",
+    "public_key_pem": "auto_generated",
+    "revoked": false,
+    "issued_at": "2025-09-14T17:54:38.921323Z"
+  },
+  "192.168.0.192": {
+    "cert_id": "92e9d259-b596-4b32-9e13-78e9d267eba5",
+    "device_id": "192.168.0.192",
+    "public_key_pem": "auto_generated",
+    "revoked": false,
+    "issued_at": "2025-09-14T17:54:57.895015Z"
+  },
+  "Laptop_1": {
+    "cert_id": "c0af2f0e-eae9-4886-8012-db0ab2693aed",
+    "device_id": "Laptop_1",
+    "public_key_pem": "fake_public_key",
+    "revoked": false,
+    "issued_at": "2025-09-15T08:13:10.526391Z"
+  },
+  "Phone_2": {
+    "cert_id": "5adc439b-96e7-42b3-9f97-6b250b5f984a",
+    "device_id": "Phone_2",
+    "public_key_pem": "fake_public_key",
+    "revoked": false,
+    "issued_at": "2025-09-15T08:13:10.540335Z"
+  },
+  "IoT_Camera": {
+    "cert_id": "bc03a01f-7714-49c8-b31e-569c89bdb1c0",
+    "device_id": "IoT_Camera",
+    "public_key_pem": "fake_key",
+    "revoked": false,
+    "issued_at": "2025-11-15T05:53:14.267193Z"
+  },
+  "Attacker_Device": {
+    "cert_id": "2bf19362-e147-40f3-8d65-1756cac5e77f",
+    "device_id": "Attacker_Device",
+    "public_key_pem": "fake_public_key",
+    "revoked": false,
+    "issued_at": "2025-09-15T08:13:10.558121Z"
+  },
+  "Laptop_A": {
+    "cert_id": "e0e2c6c3-98f8-4028-b1b3-470534133cdd",
+    "device_id": "Laptop_A",
+    "public_key_pem": "fake_key",
+    "revoked": false,
+    "issued_at": "2025-11-15T05:53:14.240313Z"
+  },
+  "Phone_B": {
+    "cert_id": "c28659a1-1cce-46c7-8d2b-462da132dda0",
+    "device_id": "Phone_B",
+    "public_key_pem": "fake_key",
+    "revoked": false,
+    "issued_at": "2025-11-15T05:53:14.256193Z"
+  },
+  "Attacker_PC": {
+    "cert_id": "2cd9f501-bdb8-4eb5-90e0-5b26b1ff50aa",
+    "device_id": "Attacker_PC",
+    "public_key_pem": "fake_key",
+    "revoked": true,
+    "issued_at": "2025-11-15T05:53:14.277350Z"
+  }
+}

@@ -1,0 +1,1649 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1756927853.5599756,
+    "data": {
+      "event": "genesis"
+    },
+    "prev_hash": "0",
+    "hash": "783db9c12dec69d8e9dd92bfdef560f82aeac21ff37d84244e1c020127db1b07"
+  },
+  {
+    "index": 1,
+    "timestamp": 1756927868.815988,
+    "data": {
+      "event": "register",
+      "device_id": "TestNode",
+      "trust": 0.5
+    },
+    "prev_hash": "783db9c12dec69d8e9dd92bfdef560f82aeac21ff37d84244e1c020127db1b07",
+    "hash": "a5c1cc511ab989a6a1a3ab015ab3b38604d9963437237b954e8c8a8811ebadf5"
+  },
+  {
+    "index": 2,
+    "timestamp": 1756927868.8265524,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.5,
+      "new": 0.55,
+      "reason": "benign_event"
+    },
+    "prev_hash": "a5c1cc511ab989a6a1a3ab015ab3b38604d9963437237b954e8c8a8811ebadf5",
+    "hash": "521d814d5e234b089055d61c6238e491508dc0307f17dfcb402c2cbf6942fc19"
+  },
+  {
+    "index": 3,
+    "timestamp": 1756927868.8427608,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.55,
+      "new": 0.15000000000000002,
+      "reason": "scan_detected"
+    },
+    "prev_hash": "521d814d5e234b089055d61c6238e491508dc0307f17dfcb402c2cbf6942fc19",
+    "hash": "ce583a1e327162f89ad86631d11e00dfc915e6d30bbb40266e70d263433bea61"
+  },
+  {
+    "index": 4,
+    "timestamp": 1756979576.954499,
+    "data": {
+      "event": "register",
+      "device_id": "TestNode",
+      "trust": 0.5
+    },
+    "prev_hash": "ce583a1e327162f89ad86631d11e00dfc915e6d30bbb40266e70d263433bea61",
+    "hash": "fd20e78d4139b8fe4e1810c5315b5c4a2b95bea8d6bf26c0491522bdea052401"
+  },
+  {
+    "index": 5,
+    "timestamp": 1756979576.9809663,
+    "data": {
+      "event": "alert_received",
+      "device_id": "TestNode",
+      "type": "info",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 2
+      }
+    },
+    "prev_hash": "fd20e78d4139b8fe4e1810c5315b5c4a2b95bea8d6bf26c0491522bdea052401",
+    "hash": "ffe0a29397052952b20c900e6b41f901dbad68db7b853821835640d3ad077715"
+  },
+  {
+    "index": 6,
+    "timestamp": 1756979576.9838042,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.5,
+      "new": 0.55,
+      "reason": "benign_event"
+    },
+    "prev_hash": "ffe0a29397052952b20c900e6b41f901dbad68db7b853821835640d3ad077715",
+    "hash": "d3ef6640937a87457067d18cd1be32eb56bb5a026dcbf8b4cb5c1f2e72681e28"
+  },
+  {
+    "index": 7,
+    "timestamp": 1756979576.9843524,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.55,
+      "new": 0.6000000000000001,
+      "reason": "forwarding_rate=0.98"
+    },
+    "prev_hash": "d3ef6640937a87457067d18cd1be32eb56bb5a026dcbf8b4cb5c1f2e72681e28",
+    "hash": "6546e9c6c3bcb68aabc5c2396f631e9e3ac14ca27665f63606a7c005bb56ef4e"
+  },
+  {
+    "index": 8,
+    "timestamp": 1756979576.9967294,
+    "data": {
+      "event": "alert_received",
+      "device_id": "TestNode",
+      "type": "scan",
+      "metrics": {
+        "scan_count": 20,
+        "packets_sent": 50,
+        "packets_failed": 5
+      }
+    },
+    "prev_hash": "6546e9c6c3bcb68aabc5c2396f631e9e3ac14ca27665f63606a7c005bb56ef4e",
+    "hash": "df47f0b288eb226e7e6467a0544c51f9747ef10cb27ac5427963bd570a814eb2"
+  },
+  {
+    "index": 9,
+    "timestamp": 1756979577.000955,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.6000000000000001,
+      "new": 0.20000000000000007,
+      "reason": "scan_count=20"
+    },
+    "prev_hash": "df47f0b288eb226e7e6467a0544c51f9747ef10cb27ac5427963bd570a814eb2",
+    "hash": "209548398f4b490933cfb96fef4ae289243efeda8b027d490f8265c6608ffee1"
+  },
+  {
+    "index": 10,
+    "timestamp": 1756979577.002027,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.20000000000000007,
+      "new": 0.25000000000000006,
+      "reason": "forwarding_rate=0.90"
+    },
+    "prev_hash": "209548398f4b490933cfb96fef4ae289243efeda8b027d490f8265c6608ffee1",
+    "hash": "cf3aa4a20ec16b9c5d1fe7e9db6341a124ccefcf1d089fb7033f572506625476"
+  },
+  {
+    "index": 11,
+    "timestamp": 1756979577.0128427,
+    "data": {
+      "event": "alert_received",
+      "device_id": "TestNode",
+      "type": "info",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 70
+      }
+    },
+    "prev_hash": "cf3aa4a20ec16b9c5d1fe7e9db6341a124ccefcf1d089fb7033f572506625476",
+    "hash": "2f571e440b39ea02a9dbcc5f0202e99cccdaeb7b9f472c858b310bb7688949d8"
+  },
+  {
+    "index": 12,
+    "timestamp": 1756979577.0138514,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.25000000000000006,
+      "new": 0.30000000000000004,
+      "reason": "benign_event"
+    },
+    "prev_hash": "2f571e440b39ea02a9dbcc5f0202e99cccdaeb7b9f472c858b310bb7688949d8",
+    "hash": "9f9658ca149865ae87f5fae9e43bea1bbe5b63e640d685949ae18a5cd9a57300"
+  },
+  {
+    "index": 13,
+    "timestamp": 1756979577.02046,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.30000000000000004,
+      "new": 0.0,
+      "reason": "forwarding_rate=0.30"
+    },
+    "prev_hash": "9f9658ca149865ae87f5fae9e43bea1bbe5b63e640d685949ae18a5cd9a57300",
+    "hash": "3dd242a35a7eadb7309d41ec1fa1f67776c210005f5f10b07df5b26dd071cd6d"
+  },
+  {
+    "index": 14,
+    "timestamp": 1756979577.0241559,
+    "data": {
+      "event": "revoke",
+      "device_id": "TestNode"
+    },
+    "prev_hash": "3dd242a35a7eadb7309d41ec1fa1f67776c210005f5f10b07df5b26dd071cd6d",
+    "hash": "048d3b70063b4436bc3d7366dd93a7e48cb2fdfa5e02108755b07c4e65ded466"
+  },
+  {
+    "index": 15,
+    "timestamp": 1757497307.0249834,
+    "data": {
+      "event": "register",
+      "device_id": "TestNode",
+      "trust": 0.5
+    },
+    "prev_hash": "048d3b70063b4436bc3d7366dd93a7e48cb2fdfa5e02108755b07c4e65ded466",
+    "hash": "e10ca395cdcedf537d8de8d7a7da8af3a15d3d269db356a33bbc86d22b223d87"
+  },
+  {
+    "index": 16,
+    "timestamp": 1757497505.522027,
+    "data": {
+      "event": "register",
+      "device_id": "TestNode",
+      "trust": 0.5
+    },
+    "prev_hash": "e10ca395cdcedf537d8de8d7a7da8af3a15d3d269db356a33bbc86d22b223d87",
+    "hash": "a2e034a489158713ee15e89525e919730c85f0a086a34c75be5230482e8170f4"
+  },
+  {
+    "index": 17,
+    "timestamp": 1757497505.554976,
+    "data": {
+      "event": "alert_received",
+      "device_id": "TestNode",
+      "type": "benign",
+      "metrics": {
+        "scan_count": 0
+      }
+    },
+    "prev_hash": "a2e034a489158713ee15e89525e919730c85f0a086a34c75be5230482e8170f4",
+    "hash": "b4d28c3a1d0db60d4a4df1fadd2b3ab76b107799bfddbc7b1bd89b6a95e3ac4f"
+  },
+  {
+    "index": 18,
+    "timestamp": 1757497505.5625744,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.5,
+      "new": 0.55,
+      "reason": "benign_event"
+    },
+    "prev_hash": "b4d28c3a1d0db60d4a4df1fadd2b3ab76b107799bfddbc7b1bd89b6a95e3ac4f",
+    "hash": "86fdc7ca3a97e4569de6d8e1f3feb5fcb3e8a7a5ebb6595c82270845571ebb08"
+  },
+  {
+    "index": 19,
+    "timestamp": 1757497505.5797586,
+    "data": {
+      "event": "alert_received",
+      "device_id": "TestNode",
+      "type": "attack",
+      "metrics": {
+        "scan_count": 50
+      }
+    },
+    "prev_hash": "86fdc7ca3a97e4569de6d8e1f3feb5fcb3e8a7a5ebb6595c82270845571ebb08",
+    "hash": "5c71b90f64492c25afb2e8d20fe7174ff21e4386b5d74b0ffe5d641ddf34b5a1"
+  },
+  {
+    "index": 20,
+    "timestamp": 1757497505.5818286,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.55,
+      "new": 0.15000000000000002,
+      "reason": "malicious_keyword"
+    },
+    "prev_hash": "5c71b90f64492c25afb2e8d20fe7174ff21e4386b5d74b0ffe5d641ddf34b5a1",
+    "hash": "88e198698e966bf67700fcbd5ca895a0a9dbb6f5b32b38b00243efc542b96e27"
+  },
+  {
+    "index": 21,
+    "timestamp": 1757497505.5889938,
+    "data": {
+      "event": "trust_update",
+      "device_id": "TestNode",
+      "old": 0.15000000000000002,
+      "new": 0.0,
+      "reason": "scan_count=50"
+    },
+    "prev_hash": "88e198698e966bf67700fcbd5ca895a0a9dbb6f5b32b38b00243efc542b96e27",
+    "hash": "595a05a39e1000390eba0846e6abe0f67f48f36e90bfadb6342b8da9bc2d02ea"
+  },
+  {
+    "index": 22,
+    "timestamp": 1757497505.63293,
+    "data": {
+      "event": "revoke",
+      "device_id": "TestNode"
+    },
+    "prev_hash": "595a05a39e1000390eba0846e6abe0f67f48f36e90bfadb6342b8da9bc2d02ea",
+    "hash": "7f34f55472ed620ed7b25356bb45fe43885616db9103af33b8fe8bf372b74b48"
+  },
+  {
+    "index": 23,
+    "timestamp": 1757498077.0785546,
+    "data": {
+      "event": "register",
+      "device_id": "Laptop_1",
+      "trust": 0.5
+    },
+    "prev_hash": "7f34f55472ed620ed7b25356bb45fe43885616db9103af33b8fe8bf372b74b48",
+    "hash": "f177177be918ba12ad9a56ce2b3d7149b9b71d12f4e0816683c183909b55d05c"
+  },
+  {
+    "index": 24,
+    "timestamp": 1757498077.6013443,
+    "data": {
+      "event": "register",
+      "device_id": "Phone_2",
+      "trust": 0.5
+    },
+    "prev_hash": "f177177be918ba12ad9a56ce2b3d7149b9b71d12f4e0816683c183909b55d05c",
+    "hash": "4784d905a0afe5db03e525888d2e195157c0ed1f2105d47556e99e1f678a8246"
+  },
+  {
+    "index": 25,
+    "timestamp": 1757498078.1294737,
+    "data": {
+      "event": "register",
+      "device_id": "IoT_Camera",
+      "trust": 0.5
+    },
+    "prev_hash": "4784d905a0afe5db03e525888d2e195157c0ed1f2105d47556e99e1f678a8246",
+    "hash": "639997a0b68f7012bf0f3c975c95d5730bc630b085150d111fa2aa08014b2687"
+  },
+  {
+    "index": 26,
+    "timestamp": 1757498078.6456974,
+    "data": {
+      "event": "register",
+      "device_id": "Attacker_Device",
+      "trust": 0.5
+    },
+    "prev_hash": "639997a0b68f7012bf0f3c975c95d5730bc630b085150d111fa2aa08014b2687",
+    "hash": "6a76d6bf5d8b71a4a98efacd8b913bec68caee0dc2ecb61c52b0ae69239376be"
+  },
+  {
+    "index": 27,
+    "timestamp": 1757498079.1742313,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Laptop_1",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 1
+      }
+    },
+    "prev_hash": "6a76d6bf5d8b71a4a98efacd8b913bec68caee0dc2ecb61c52b0ae69239376be",
+    "hash": "1765f9caed238adc6a59edabd52b8b1aa3f481d142f6289cec9c9f224f4f0598"
+  },
+  {
+    "index": 28,
+    "timestamp": 1757498079.177661,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.5,
+      "new": 0.55,
+      "reason": "benign_event"
+    },
+    "prev_hash": "1765f9caed238adc6a59edabd52b8b1aa3f481d142f6289cec9c9f224f4f0598",
+    "hash": "7485668f694da95b56185c4a487fb8099aefdeed26265eefd2733fd354c8ff15"
+  },
+  {
+    "index": 29,
+    "timestamp": 1757498079.1846218,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.55,
+      "new": 0.6000000000000001,
+      "reason": "forwarding_rate=0.99"
+    },
+    "prev_hash": "7485668f694da95b56185c4a487fb8099aefdeed26265eefd2733fd354c8ff15",
+    "hash": "50b3a0f0373af1f3310505f1a44e6e206706ea033d0ac9c49be035d71e3adc2a"
+  },
+  {
+    "index": 30,
+    "timestamp": 1757498079.5038428,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Phone_2",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 50,
+        "packets_failed": 2
+      }
+    },
+    "prev_hash": "50b3a0f0373af1f3310505f1a44e6e206706ea033d0ac9c49be035d71e3adc2a",
+    "hash": "4db7df6307ca8d7e73b75d6f486c9103f40f7d2982817295be4ea81b665da565"
+  },
+  {
+    "index": 31,
+    "timestamp": 1757498079.5038428,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.5,
+      "new": 0.55,
+      "reason": "benign_event"
+    },
+    "prev_hash": "4db7df6307ca8d7e73b75d6f486c9103f40f7d2982817295be4ea81b665da565",
+    "hash": "e0b73b84f56af08a2579c7b1ea2dd77f37d272bed91c440eb28d6ea9e1f3636d"
+  },
+  {
+    "index": 32,
+    "timestamp": 1757498079.5234528,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.55,
+      "new": 0.6000000000000001,
+      "reason": "forwarding_rate=0.96"
+    },
+    "prev_hash": "e0b73b84f56af08a2579c7b1ea2dd77f37d272bed91c440eb28d6ea9e1f3636d",
+    "hash": "0bc7ac18f587d0c4e82b7b1ba56d5c7be7f275453fe789c0a1463c1a9ce8fe90"
+  },
+  {
+    "index": 33,
+    "timestamp": 1757498079.8347318,
+    "data": {
+      "event": "alert_received",
+      "device_id": "IoT_Camera",
+      "type": "scan",
+      "metrics": {
+        "scan_count": 40,
+        "packets_failed": 10
+      }
+    },
+    "prev_hash": "0bc7ac18f587d0c4e82b7b1ba56d5c7be7f275453fe789c0a1463c1a9ce8fe90",
+    "hash": "3d0f55bbac3a77586319351a82944117f127cbc7c6d10bc7b9048059d7a538f5"
+  },
+  {
+    "index": 34,
+    "timestamp": 1757498079.8517404,
+    "data": {
+      "event": "trust_update",
+      "device_id": "IoT_Camera",
+      "old": 0.5,
+      "new": 0.09999999999999998,
+      "reason": "scan_count=40"
+    },
+    "prev_hash": "3d0f55bbac3a77586319351a82944117f127cbc7c6d10bc7b9048059d7a538f5",
+    "hash": "a99a26a088f37ad34d83034828ab72f2ecbf54924bc8a7a5b237f7c2e7718ce3"
+  },
+  {
+    "index": 35,
+    "timestamp": 1757498080.168428,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Attacker_Device",
+      "type": "ddos",
+      "metrics": {
+        "packets_sent": 1000,
+        "packets_failed": 400
+      }
+    },
+    "prev_hash": "a99a26a088f37ad34d83034828ab72f2ecbf54924bc8a7a5b237f7c2e7718ce3",
+    "hash": "4cba4cb63e743b42a16dbf5fc670c93b36c1258ad348ae26608274d55fdfa228"
+  },
+  {
+    "index": 36,
+    "timestamp": 1757498080.1767004,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Attacker_Device",
+      "old": 0.5,
+      "new": 0.3,
+      "reason": "forwarding_rate=0.60"
+    },
+    "prev_hash": "4cba4cb63e743b42a16dbf5fc670c93b36c1258ad348ae26608274d55fdfa228",
+    "hash": "f4ff685ce85468250f7dc2e6996eeb909a991cb13eeec79c1894aec5b54ad479"
+  },
+  {
+    "index": 37,
+    "timestamp": 1757498081.494664,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Laptop_1",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 1
+      }
+    },
+    "prev_hash": "f4ff685ce85468250f7dc2e6996eeb909a991cb13eeec79c1894aec5b54ad479",
+    "hash": "d571722809ce8c4e44cebaaffebcdf6f15300ffb286cd48dbee419ba16ce57cd"
+  },
+  {
+    "index": 38,
+    "timestamp": 1757498081.5053117,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.6000000000000001,
+      "new": 0.6500000000000001,
+      "reason": "benign_event"
+    },
+    "prev_hash": "d571722809ce8c4e44cebaaffebcdf6f15300ffb286cd48dbee419ba16ce57cd",
+    "hash": "1c843fbcbcfda0efcbc4d8aab8e4970aac63e6c24e6cd98895e10994e8f519e3"
+  },
+  {
+    "index": 39,
+    "timestamp": 1757498081.5141952,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.6500000000000001,
+      "new": 0.7000000000000002,
+      "reason": "forwarding_rate=0.99"
+    },
+    "prev_hash": "1c843fbcbcfda0efcbc4d8aab8e4970aac63e6c24e6cd98895e10994e8f519e3",
+    "hash": "c4fd16ed8628b9c25d54830ba58700947b3e87c42b7e1a5be90804e80287b5c0"
+  },
+  {
+    "index": 40,
+    "timestamp": 1757498081.8360746,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Phone_2",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 50,
+        "packets_failed": 2
+      }
+    },
+    "prev_hash": "c4fd16ed8628b9c25d54830ba58700947b3e87c42b7e1a5be90804e80287b5c0",
+    "hash": "2fa02b192c63419b27c67242148db8dd57332a4db29991ce9a18909d1927a92c"
+  },
+  {
+    "index": 41,
+    "timestamp": 1757498081.8470163,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.6000000000000001,
+      "new": 0.6500000000000001,
+      "reason": "benign_event"
+    },
+    "prev_hash": "2fa02b192c63419b27c67242148db8dd57332a4db29991ce9a18909d1927a92c",
+    "hash": "ec40c3ef8edf62b26bdc9eeeca033a330eb1e4d5a94840c7f65fcfa2b7b5bea8"
+  },
+  {
+    "index": 42,
+    "timestamp": 1757498081.8539991,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.6500000000000001,
+      "new": 0.7000000000000002,
+      "reason": "forwarding_rate=0.96"
+    },
+    "prev_hash": "ec40c3ef8edf62b26bdc9eeeca033a330eb1e4d5a94840c7f65fcfa2b7b5bea8",
+    "hash": "b6aff54848cefb8e23f1e2afd90900d9de1fe64bf0b82cabba5c789310580eb8"
+  },
+  {
+    "index": 43,
+    "timestamp": 1757498082.17043,
+    "data": {
+      "event": "alert_received",
+      "device_id": "IoT_Camera",
+      "type": "scan",
+      "metrics": {
+        "scan_count": 40,
+        "packets_failed": 10
+      }
+    },
+    "prev_hash": "b6aff54848cefb8e23f1e2afd90900d9de1fe64bf0b82cabba5c789310580eb8",
+    "hash": "612d0991e50614d287e9c500dccfc968c286e24178ca922b4bab9ada49bd6ba1"
+  },
+  {
+    "index": 44,
+    "timestamp": 1757498082.1766381,
+    "data": {
+      "event": "trust_update",
+      "device_id": "IoT_Camera",
+      "old": 0.09999999999999998,
+      "new": 0.0,
+      "reason": "scan_count=40"
+    },
+    "prev_hash": "612d0991e50614d287e9c500dccfc968c286e24178ca922b4bab9ada49bd6ba1",
+    "hash": "6c60c48fd154b5cee30e7c457957eca481458ef55f6a7268c4bb193e82cc9a3d"
+  },
+  {
+    "index": 45,
+    "timestamp": 1757498082.1848378,
+    "data": {
+      "event": "revoke",
+      "device_id": "IoT_Camera"
+    },
+    "prev_hash": "6c60c48fd154b5cee30e7c457957eca481458ef55f6a7268c4bb193e82cc9a3d",
+    "hash": "9844529bb2aa9501bdd698082baed85d02691a72d21b675eb378fb5e1e8109ea"
+  },
+  {
+    "index": 46,
+    "timestamp": 1757498082.4939504,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Attacker_Device",
+      "type": "ddos",
+      "metrics": {
+        "packets_sent": 1000,
+        "packets_failed": 400
+      }
+    },
+    "prev_hash": "9844529bb2aa9501bdd698082baed85d02691a72d21b675eb378fb5e1e8109ea",
+    "hash": "2737fa83987ea9117f101d052fb02307bfc2b2b1400febab5d1b932c2b02d8ed"
+  },
+  {
+    "index": 47,
+    "timestamp": 1757498082.5121822,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Attacker_Device",
+      "old": 0.3,
+      "new": 0.09999999999999998,
+      "reason": "forwarding_rate=0.60"
+    },
+    "prev_hash": "2737fa83987ea9117f101d052fb02307bfc2b2b1400febab5d1b932c2b02d8ed",
+    "hash": "44d506f4725b0b3b5a83e662eb86b0604c1566816334a25c7c38b5bd72f0d3d7"
+  },
+  {
+    "index": 48,
+    "timestamp": 1757498083.8396091,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Laptop_1",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 1
+      }
+    },
+    "prev_hash": "44d506f4725b0b3b5a83e662eb86b0604c1566816334a25c7c38b5bd72f0d3d7",
+    "hash": "422689c2c7e9a111be80b6eca3a39d87e9e5cbab9b44b8584c27b58cbd4a7803"
+  },
+  {
+    "index": 49,
+    "timestamp": 1757498083.8498175,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.7000000000000002,
+      "new": 0.7500000000000002,
+      "reason": "benign_event"
+    },
+    "prev_hash": "422689c2c7e9a111be80b6eca3a39d87e9e5cbab9b44b8584c27b58cbd4a7803",
+    "hash": "fba4b60b63e6939b1632141e4c20d87dc699d58943b29417297f70dccf9dd1b2"
+  },
+  {
+    "index": 50,
+    "timestamp": 1757498083.856854,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.7500000000000002,
+      "new": 0.8000000000000003,
+      "reason": "forwarding_rate=0.99"
+    },
+    "prev_hash": "fba4b60b63e6939b1632141e4c20d87dc699d58943b29417297f70dccf9dd1b2",
+    "hash": "d066f6ac281e65c4d4ccaeb5fd8eabb824fc871066f78741def9a1744817715d"
+  },
+  {
+    "index": 51,
+    "timestamp": 1757498084.1725092,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Phone_2",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 50,
+        "packets_failed": 2
+      }
+    },
+    "prev_hash": "d066f6ac281e65c4d4ccaeb5fd8eabb824fc871066f78741def9a1744817715d",
+    "hash": "74e3749f66ba9912892e027cb84db48c22896a453fea20be5815f848215f8fe2"
+  },
+  {
+    "index": 52,
+    "timestamp": 1757498084.1809442,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.7000000000000002,
+      "new": 0.7500000000000002,
+      "reason": "benign_event"
+    },
+    "prev_hash": "74e3749f66ba9912892e027cb84db48c22896a453fea20be5815f848215f8fe2",
+    "hash": "8dc0bd14271a074207f567807fb3251063f892a7c9d47e296b50ea61a7d983d2"
+  },
+  {
+    "index": 53,
+    "timestamp": 1757498084.1905324,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.7500000000000002,
+      "new": 0.8000000000000003,
+      "reason": "forwarding_rate=0.96"
+    },
+    "prev_hash": "8dc0bd14271a074207f567807fb3251063f892a7c9d47e296b50ea61a7d983d2",
+    "hash": "625c95de7c77e657acec1bc9b07fba80fa3842fc68147afb831e1eab0351b7c8"
+  },
+  {
+    "index": 54,
+    "timestamp": 1757498084.8262093,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Attacker_Device",
+      "type": "ddos",
+      "metrics": {
+        "packets_sent": 1000,
+        "packets_failed": 400
+      }
+    },
+    "prev_hash": "625c95de7c77e657acec1bc9b07fba80fa3842fc68147afb831e1eab0351b7c8",
+    "hash": "99e281d19b8f0d594c578966a482abe7fb88bc180f5d167b6530381233945fbf"
+  },
+  {
+    "index": 55,
+    "timestamp": 1757498084.8342714,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Attacker_Device",
+      "old": 0.09999999999999998,
+      "new": 0.0,
+      "reason": "forwarding_rate=0.60"
+    },
+    "prev_hash": "99e281d19b8f0d594c578966a482abe7fb88bc180f5d167b6530381233945fbf",
+    "hash": "7b48bd9d8d4f7306b75ed21ff6f130a38558c5b372ca8916e08f901752838b8b"
+  },
+  {
+    "index": 56,
+    "timestamp": 1757498084.844882,
+    "data": {
+      "event": "revoke",
+      "device_id": "Attacker_Device"
+    },
+    "prev_hash": "7b48bd9d8d4f7306b75ed21ff6f130a38558c5b372ca8916e08f901752838b8b",
+    "hash": "197e4165c0ec8736d81393550622e6914f5745748db7f7505116ec55ee5470e2"
+  },
+  {
+    "index": 57,
+    "timestamp": 1757498086.1731818,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Laptop_1",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 1
+      }
+    },
+    "prev_hash": "197e4165c0ec8736d81393550622e6914f5745748db7f7505116ec55ee5470e2",
+    "hash": "9891e0c49795df2171d35e94de64057380b8bf138231a46c34e210fe4facb986"
+  },
+  {
+    "index": 58,
+    "timestamp": 1757498086.1731818,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.8000000000000003,
+      "new": 0.8500000000000003,
+      "reason": "benign_event"
+    },
+    "prev_hash": "9891e0c49795df2171d35e94de64057380b8bf138231a46c34e210fe4facb986",
+    "hash": "fcafb7ae3c1dc6bf4b4b7614425ec7bae1840edd0e978cf090d211254e40610f"
+  },
+  {
+    "index": 59,
+    "timestamp": 1757498086.1930108,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.8500000000000003,
+      "new": 0.9000000000000004,
+      "reason": "forwarding_rate=0.99"
+    },
+    "prev_hash": "fcafb7ae3c1dc6bf4b4b7614425ec7bae1840edd0e978cf090d211254e40610f",
+    "hash": "52ec0f37ad9339292faf054e4aaeff89fe011192bfe05d88ac79c3c9deb02737"
+  },
+  {
+    "index": 60,
+    "timestamp": 1757498086.5263574,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Phone_2",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 50,
+        "packets_failed": 2
+      }
+    },
+    "prev_hash": "52ec0f37ad9339292faf054e4aaeff89fe011192bfe05d88ac79c3c9deb02737",
+    "hash": "f867a1a2bfb131a4be8c9b6964f8090038a044e96fd96453080f0551ef0a786b"
+  },
+  {
+    "index": 61,
+    "timestamp": 1757498086.548178,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.8000000000000003,
+      "new": 0.8500000000000003,
+      "reason": "benign_event"
+    },
+    "prev_hash": "f867a1a2bfb131a4be8c9b6964f8090038a044e96fd96453080f0551ef0a786b",
+    "hash": "eafab20c2ea97bb57bf36c2ae1a48324e866560bfa0bcf4127006abca126314e"
+  },
+  {
+    "index": 62,
+    "timestamp": 1757498086.566924,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.8500000000000003,
+      "new": 0.9000000000000004,
+      "reason": "forwarding_rate=0.96"
+    },
+    "prev_hash": "eafab20c2ea97bb57bf36c2ae1a48324e866560bfa0bcf4127006abca126314e",
+    "hash": "abdcadc7f0ad11e9387531224eeaf9521ff6687856f75581794667fcdc76a9d4"
+  },
+  {
+    "index": 63,
+    "timestamp": 1757498088.5342813,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Laptop_1",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 1
+      }
+    },
+    "prev_hash": "abdcadc7f0ad11e9387531224eeaf9521ff6687856f75581794667fcdc76a9d4",
+    "hash": "d37891162f8b9ce1ad90bb4c03ba8dbedd238df9a68806015d2f62c27f9126ef"
+  },
+  {
+    "index": 64,
+    "timestamp": 1757498088.5491729,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.9000000000000004,
+      "new": 0.9500000000000004,
+      "reason": "benign_event"
+    },
+    "prev_hash": "d37891162f8b9ce1ad90bb4c03ba8dbedd238df9a68806015d2f62c27f9126ef",
+    "hash": "3cecea8744d88c732993442d02038a8c30ded41c27137095080269591e1957f6"
+  },
+  {
+    "index": 65,
+    "timestamp": 1757498088.5671268,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.9500000000000004,
+      "new": 1.0,
+      "reason": "forwarding_rate=0.99"
+    },
+    "prev_hash": "3cecea8744d88c732993442d02038a8c30ded41c27137095080269591e1957f6",
+    "hash": "5a11854c8dc2e1b441fd565d90ef76f775fbfcc015e89766785c8577b244bf3a"
+  },
+  {
+    "index": 66,
+    "timestamp": 1757498088.8980808,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Phone_2",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 50,
+        "packets_failed": 2
+      }
+    },
+    "prev_hash": "5a11854c8dc2e1b441fd565d90ef76f775fbfcc015e89766785c8577b244bf3a",
+    "hash": "95addce3370b14a35bb2789d79f10cef37029adace76d1553ce82688a1d0222c"
+  },
+  {
+    "index": 67,
+    "timestamp": 1757498088.9043658,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.9000000000000004,
+      "new": 0.9500000000000004,
+      "reason": "benign_event"
+    },
+    "prev_hash": "95addce3370b14a35bb2789d79f10cef37029adace76d1553ce82688a1d0222c",
+    "hash": "12a0bd9149e245683927da752eb86b8e3f271331c0e3ea2e3a7cdc3f0c33a532"
+  },
+  {
+    "index": 68,
+    "timestamp": 1757498088.9148622,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.9500000000000004,
+      "new": 1.0,
+      "reason": "forwarding_rate=0.96"
+    },
+    "prev_hash": "12a0bd9149e245683927da752eb86b8e3f271331c0e3ea2e3a7cdc3f0c33a532",
+    "hash": "8f7cb1cfaf0f78c198b6f45a1e6d19fb53e653f0f3160c1498852f9b59c6fd16"
+  },
+  {
+    "index": 69,
+    "timestamp": 1757498116.7068777,
+    "data": {
+      "event": "register",
+      "device_id": "Laptop_1",
+      "trust": 0.5
+    },
+    "prev_hash": "8f7cb1cfaf0f78c198b6f45a1e6d19fb53e653f0f3160c1498852f9b59c6fd16",
+    "hash": "fd3ae9d5d692ef40b50f44ae2134685612ec38c45040c520ac605fe935fca4ff"
+  },
+  {
+    "index": 70,
+    "timestamp": 1757498116.7316046,
+    "data": {
+      "event": "register",
+      "device_id": "Phone_2",
+      "trust": 0.5
+    },
+    "prev_hash": "fd3ae9d5d692ef40b50f44ae2134685612ec38c45040c520ac605fe935fca4ff",
+    "hash": "120fd89168c1fb1e8b185b7a1c4be82bc8c65049756e306c638a075ccac60031"
+  },
+  {
+    "index": 71,
+    "timestamp": 1757498116.7504554,
+    "data": {
+      "event": "register",
+      "device_id": "IoT_Camera",
+      "trust": 0.5
+    },
+    "prev_hash": "120fd89168c1fb1e8b185b7a1c4be82bc8c65049756e306c638a075ccac60031",
+    "hash": "a578905d21bb5297b881488a28ead06775a117aa22dc2c6fda6bae103c4afe2b"
+  },
+  {
+    "index": 72,
+    "timestamp": 1757498116.772735,
+    "data": {
+      "event": "register",
+      "device_id": "Attacker_Device",
+      "trust": 0.5
+    },
+    "prev_hash": "a578905d21bb5297b881488a28ead06775a117aa22dc2c6fda6bae103c4afe2b",
+    "hash": "1f32ff1fb85a352584aa030f8f73bfc8645a8ccbaef7d586aeabe99bebdab9ee"
+  },
+  {
+    "index": 73,
+    "timestamp": 1757498116.7964022,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Laptop_1",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 1
+      }
+    },
+    "prev_hash": "1f32ff1fb85a352584aa030f8f73bfc8645a8ccbaef7d586aeabe99bebdab9ee",
+    "hash": "cdb3bb4b74845b089ff7ac574354ce29a3361f318e4984b27ed82e2efd78a940"
+  },
+  {
+    "index": 74,
+    "timestamp": 1757498116.8048015,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.5,
+      "new": 0.55,
+      "reason": "benign_event"
+    },
+    "prev_hash": "cdb3bb4b74845b089ff7ac574354ce29a3361f318e4984b27ed82e2efd78a940",
+    "hash": "d06c6d02a0bf2d26cbd7faf23862a3bd1490858593439857aba6e1567c79439b"
+  },
+  {
+    "index": 75,
+    "timestamp": 1757498116.8130062,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.55,
+      "new": 0.6000000000000001,
+      "reason": "forwarding_rate=0.99"
+    },
+    "prev_hash": "d06c6d02a0bf2d26cbd7faf23862a3bd1490858593439857aba6e1567c79439b",
+    "hash": "9ec0908c5082b70a8eb20975bf9c60f9a539d3ef3a5478981e742f6c3b92cddd"
+  },
+  {
+    "index": 76,
+    "timestamp": 1757498116.8297725,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Phone_2",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 50,
+        "packets_failed": 2
+      }
+    },
+    "prev_hash": "9ec0908c5082b70a8eb20975bf9c60f9a539d3ef3a5478981e742f6c3b92cddd",
+    "hash": "4b47c84c6ada9c23f6423f2bd0a409a69a2e30eeb348114cfaa2b024c6df275e"
+  },
+  {
+    "index": 77,
+    "timestamp": 1757498116.838393,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.5,
+      "new": 0.55,
+      "reason": "benign_event"
+    },
+    "prev_hash": "4b47c84c6ada9c23f6423f2bd0a409a69a2e30eeb348114cfaa2b024c6df275e",
+    "hash": "5a7a31bf01e7be0b046b4ae9435f245086e5681e71bfd045d06801238a97d238"
+  },
+  {
+    "index": 78,
+    "timestamp": 1757498116.8462741,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.55,
+      "new": 0.6000000000000001,
+      "reason": "forwarding_rate=0.96"
+    },
+    "prev_hash": "5a7a31bf01e7be0b046b4ae9435f245086e5681e71bfd045d06801238a97d238",
+    "hash": "8862b80889ebcdb9740bedb175fa71b7c89cde1e655ee0828225db42126fef25"
+  },
+  {
+    "index": 79,
+    "timestamp": 1757498116.8631294,
+    "data": {
+      "event": "alert_received",
+      "device_id": "IoT_Camera",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 80,
+        "packets_failed": 5
+      }
+    },
+    "prev_hash": "8862b80889ebcdb9740bedb175fa71b7c89cde1e655ee0828225db42126fef25",
+    "hash": "4970b6790596436bfe12e3baf94fbabda600fbe6de49087fbb9eb20250854fc6"
+  },
+  {
+    "index": 80,
+    "timestamp": 1757498116.8813999,
+    "data": {
+      "event": "trust_update",
+      "device_id": "IoT_Camera",
+      "old": 0.5,
+      "new": 0.55,
+      "reason": "benign_event"
+    },
+    "prev_hash": "4970b6790596436bfe12e3baf94fbabda600fbe6de49087fbb9eb20250854fc6",
+    "hash": "4b3f50e417c6855b2c01edcc4fe988dbe6f30b44ed5d8e7d44272bddbee7e0f1"
+  },
+  {
+    "index": 81,
+    "timestamp": 1757498116.894295,
+    "data": {
+      "event": "trust_update",
+      "device_id": "IoT_Camera",
+      "old": 0.55,
+      "new": 0.6000000000000001,
+      "reason": "forwarding_rate=0.94"
+    },
+    "prev_hash": "4b3f50e417c6855b2c01edcc4fe988dbe6f30b44ed5d8e7d44272bddbee7e0f1",
+    "hash": "40f22735cff6493f889ed01f84251057717eb7e85b9a7483d4c4efdca847d196"
+  },
+  {
+    "index": 82,
+    "timestamp": 1757498116.923524,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Attacker_Device",
+      "type": "ddos",
+      "metrics": {
+        "packets_sent": 1000,
+        "packets_failed": 400
+      }
+    },
+    "prev_hash": "40f22735cff6493f889ed01f84251057717eb7e85b9a7483d4c4efdca847d196",
+    "hash": "3409c7fd401d8fa53170d2ff66f7b9e7b723a6bfc265cff65168a9079bc12d53"
+  },
+  {
+    "index": 83,
+    "timestamp": 1757498116.932119,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Attacker_Device",
+      "old": 0.5,
+      "new": 0.3,
+      "reason": "forwarding_rate=0.60"
+    },
+    "prev_hash": "3409c7fd401d8fa53170d2ff66f7b9e7b723a6bfc265cff65168a9079bc12d53",
+    "hash": "060e40c7cb34a962620bc286b02447b2e4ef79f9ec7b147613d87baa11c68b8e"
+  },
+  {
+    "index": 84,
+    "timestamp": 1757498117.949823,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Laptop_1",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 1
+      }
+    },
+    "prev_hash": "060e40c7cb34a962620bc286b02447b2e4ef79f9ec7b147613d87baa11c68b8e",
+    "hash": "2eec32e1458b01bc5649261e0077267e94187ac8831817a7e0fe8e5cbe3511f5"
+  },
+  {
+    "index": 85,
+    "timestamp": 1757498117.9713984,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.6000000000000001,
+      "new": 0.6500000000000001,
+      "reason": "benign_event"
+    },
+    "prev_hash": "2eec32e1458b01bc5649261e0077267e94187ac8831817a7e0fe8e5cbe3511f5",
+    "hash": "36c82b05f328cbc25f89cb988cd5def0b40491bc9c416789eb09ec71895a96a8"
+  },
+  {
+    "index": 86,
+    "timestamp": 1757498117.9795787,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.6500000000000001,
+      "new": 0.7000000000000002,
+      "reason": "forwarding_rate=0.99"
+    },
+    "prev_hash": "36c82b05f328cbc25f89cb988cd5def0b40491bc9c416789eb09ec71895a96a8",
+    "hash": "3e5151e4c6068268dc0650d6e75a18008b8a9c10bcf144af8fea8dabb67a0c15"
+  },
+  {
+    "index": 87,
+    "timestamp": 1757498118.0147579,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Phone_2",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 50,
+        "packets_failed": 2
+      }
+    },
+    "prev_hash": "3e5151e4c6068268dc0650d6e75a18008b8a9c10bcf144af8fea8dabb67a0c15",
+    "hash": "95c33d4f0ecc0355650d4231920ed15ac4a7ba7afb078eb9f2661b117eb504d8"
+  },
+  {
+    "index": 88,
+    "timestamp": 1757498118.0280511,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.6000000000000001,
+      "new": 0.6500000000000001,
+      "reason": "benign_event"
+    },
+    "prev_hash": "95c33d4f0ecc0355650d4231920ed15ac4a7ba7afb078eb9f2661b117eb504d8",
+    "hash": "bc8f16a53067ad4e11c12b4763c57c846a99c603ad2b44dda8f448fb5aac9ed4"
+  },
+  {
+    "index": 89,
+    "timestamp": 1757498118.0399241,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.6500000000000001,
+      "new": 0.7000000000000002,
+      "reason": "forwarding_rate=0.96"
+    },
+    "prev_hash": "bc8f16a53067ad4e11c12b4763c57c846a99c603ad2b44dda8f448fb5aac9ed4",
+    "hash": "b71cda1ce87b314bf94f2c166f2d3540718f1b2817f77a41d49f853dd1cf4092"
+  },
+  {
+    "index": 90,
+    "timestamp": 1757498118.056373,
+    "data": {
+      "event": "alert_received",
+      "device_id": "IoT_Camera",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 80,
+        "packets_failed": 5
+      }
+    },
+    "prev_hash": "b71cda1ce87b314bf94f2c166f2d3540718f1b2817f77a41d49f853dd1cf4092",
+    "hash": "a3aa0bd9950cd8da58ad707346615b689af4eef3a238a493d48399a9f96fa916"
+  },
+  {
+    "index": 91,
+    "timestamp": 1757498118.0729103,
+    "data": {
+      "event": "trust_update",
+      "device_id": "IoT_Camera",
+      "old": 0.6000000000000001,
+      "new": 0.6500000000000001,
+      "reason": "benign_event"
+    },
+    "prev_hash": "a3aa0bd9950cd8da58ad707346615b689af4eef3a238a493d48399a9f96fa916",
+    "hash": "e53af761ba430360ad0f04555dd4bdfa47cff4512f8de0449e1cc4351c1e599c"
+  },
+  {
+    "index": 92,
+    "timestamp": 1757498118.0811424,
+    "data": {
+      "event": "trust_update",
+      "device_id": "IoT_Camera",
+      "old": 0.6500000000000001,
+      "new": 0.7000000000000002,
+      "reason": "forwarding_rate=0.94"
+    },
+    "prev_hash": "e53af761ba430360ad0f04555dd4bdfa47cff4512f8de0449e1cc4351c1e599c",
+    "hash": "9dabe0a9b683f60d966f2175b0ff0b4b67f7026a9bc9adf8892a7d18f89f6044"
+  },
+  {
+    "index": 93,
+    "timestamp": 1757498118.106033,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Attacker_Device",
+      "type": "ddos",
+      "metrics": {
+        "packets_sent": 1000,
+        "packets_failed": 400
+      }
+    },
+    "prev_hash": "9dabe0a9b683f60d966f2175b0ff0b4b67f7026a9bc9adf8892a7d18f89f6044",
+    "hash": "88e3b9c601c0fdf0f4787a1e00cd508468c3ebd7504ffd433aa9231fc856cf33"
+  },
+  {
+    "index": 94,
+    "timestamp": 1757498118.1136935,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Attacker_Device",
+      "old": 0.3,
+      "new": 0.09999999999999998,
+      "reason": "forwarding_rate=0.60"
+    },
+    "prev_hash": "88e3b9c601c0fdf0f4787a1e00cd508468c3ebd7504ffd433aa9231fc856cf33",
+    "hash": "0c1a4990204de222fc4889ae2705032e053783b14aa9a6596f365e2bce44322f"
+  },
+  {
+    "index": 95,
+    "timestamp": 1757498119.135481,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Laptop_1",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 100,
+        "packets_failed": 1
+      }
+    },
+    "prev_hash": "0c1a4990204de222fc4889ae2705032e053783b14aa9a6596f365e2bce44322f",
+    "hash": "bffd90909ade2a1184b01a78fdfcf0c65135451aef5ef12f159bbc113eeb3eaf"
+  },
+  {
+    "index": 96,
+    "timestamp": 1757498119.147371,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.7000000000000002,
+      "new": 0.7500000000000002,
+      "reason": "benign_event"
+    },
+    "prev_hash": "bffd90909ade2a1184b01a78fdfcf0c65135451aef5ef12f159bbc113eeb3eaf",
+    "hash": "ac749f9ae7a3fa96ecfef3532640d8be85b984ae93f0d7a69b8851827d80efae"
+  },
+  {
+    "index": 97,
+    "timestamp": 1757498119.1589067,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Laptop_1",
+      "old": 0.7500000000000002,
+      "new": 0.8000000000000003,
+      "reason": "forwarding_rate=0.99"
+    },
+    "prev_hash": "ac749f9ae7a3fa96ecfef3532640d8be85b984ae93f0d7a69b8851827d80efae",
+    "hash": "a713e2a620cde3769dd7f3b63ac85341de78d354e220842ab5af33472a7bf6ce"
+  },
+  {
+    "index": 98,
+    "timestamp": 1757498119.174383,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Phone_2",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 50,
+        "packets_failed": 2
+      }
+    },
+    "prev_hash": "a713e2a620cde3769dd7f3b63ac85341de78d354e220842ab5af33472a7bf6ce",
+    "hash": "7a4a54ff47307b845a4e9bb9035004f5a48865dc9a3ceb9ab764d9728e37b19b"
+  },
+  {
+    "index": 99,
+    "timestamp": 1757498119.187007,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.7000000000000002,
+      "new": 0.7500000000000002,
+      "reason": "benign_event"
+    },
+    "prev_hash": "7a4a54ff47307b845a4e9bb9035004f5a48865dc9a3ceb9ab764d9728e37b19b",
+    "hash": "680a283f4d2bdd929524dcc662d13b249972892c41f5cbd773dcc8e9e61406a8"
+  },
+  {
+    "index": 100,
+    "timestamp": 1757498119.2034822,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Phone_2",
+      "old": 0.7500000000000002,
+      "new": 0.8000000000000003,
+      "reason": "forwarding_rate=0.96"
+    },
+    "prev_hash": "680a283f4d2bdd929524dcc662d13b249972892c41f5cbd773dcc8e9e61406a8",
+    "hash": "0f52f96c41c3f97af48b7dac76e3b7faaefe9db89a25533c929d4a95858f29ea"
+  },
+  {
+    "index": 101,
+    "timestamp": 1757498119.2396264,
+    "data": {
+      "event": "alert_received",
+      "device_id": "IoT_Camera",
+      "type": "benign",
+      "metrics": {
+        "packets_sent": 80,
+        "packets_failed": 5
+      }
+    },
+    "prev_hash": "0f52f96c41c3f97af48b7dac76e3b7faaefe9db89a25533c929d4a95858f29ea",
+    "hash": "9909f207238142a15416c5ee266302ea35e9026bfca4582b1e81fec3a08854bb"
+  },
+  {
+    "index": 102,
+    "timestamp": 1757498119.2599802,
+    "data": {
+      "event": "trust_update",
+      "device_id": "IoT_Camera",
+      "old": 0.7000000000000002,
+      "new": 0.7500000000000002,
+      "reason": "benign_event"
+    },
+    "prev_hash": "9909f207238142a15416c5ee266302ea35e9026bfca4582b1e81fec3a08854bb",
+    "hash": "6fcb0a0f0b914f9a0f5a93ebfa8ba5453f9fa01075cd511bfe4a8a5239cc353b"
+  },
+  {
+    "index": 103,
+    "timestamp": 1757498119.2789178,
+    "data": {
+      "event": "trust_update",
+      "device_id": "IoT_Camera",
+      "old": 0.7500000000000002,
+      "new": 0.8000000000000003,
+      "reason": "forwarding_rate=0.94"
+    },
+    "prev_hash": "6fcb0a0f0b914f9a0f5a93ebfa8ba5453f9fa01075cd511bfe4a8a5239cc353b",
+    "hash": "5ccfb77e504d4f5662fcfa9cd8931c0c542aa172b8aab55c8c66a3509892c40f"
+  },
+  {
+    "index": 104,
+    "timestamp": 1757498119.320904,
+    "data": {
+      "event": "alert_received",
+      "device_id": "Attacker_Device",
+      "type": "ddos",
+      "metrics": {
+        "packets_sent": 1000,
+        "packets_failed": 400
+      }
+    },
+    "prev_hash": "5ccfb77e504d4f5662fcfa9cd8931c0c542aa172b8aab55c8c66a3509892c40f",
+    "hash": "cdcbbb6d24fdf13792cb9d30b8da1de274a84871ae9a1b8bf95f79f151191c58"
+  },
+  {
+    "index": 105,
+    "timestamp": 1757498119.3438141,
+    "data": {
+      "event": "trust_update",
+      "device_id": "Attacker_Device",
+      "old": 0.09999999999999998,
+      "new": 0.0,
+      "reason": "forwarding_rate=0.60"
+    },
+    "prev_hash": "cdcbbb6d24fdf13792cb9d30b8da1de274a84871ae9a1b8bf95f79f151191c58",
+    "hash": "34c09b2f7a50dfa3bae15743f1f055c6a3e59bb90f657e033ff6dc958b9a1b9b"
+  },
+  {
+    "index": 106,
+    "timestamp": 1757498119.3741846,
+    "data": {
+      "event": "revoke",
+      "device_id": "Attacker_Device"
+    },
+    "prev_hash": "34c09b2f7a50dfa3bae15743f1f055c6a3e59bb90f657e033ff6dc958b9a1b9b",
+    "hash": "ad5be1dc54751e6a593a4597ee8434e7cdb2cfeb7c4202687b3a4efe0cfb0ad8"
+  },
+  {
+    "index": 107,
+    "timestamp": 1757672316.27603,
+    "data": {
+      "event": "register",
+      "device_id": "DESKTOP-BLT1V2B",
+      "trust": 0.5
+    },
+    "prev_hash": "ad5be1dc54751e6a593a4597ee8434e7cdb2cfeb7c4202687b3a4efe0cfb0ad8",
+    "hash": "0d40a63283b44b35cc35b72449d46fb86d3cd970ede1822c8550ac35e16cb1e7"
+  },
+  {
+    "index": 108,
+    "timestamp": 1757672317.2980797,
+    "data": {
+      "event": "alert_received",
+      "device_id": "DESKTOP-BLT1V2B",
+      "type": "benign",
+      "metrics": {
+        "bytes_sent": 4515887,
+        "bytes_recv": 66634227,
+        "packets_sent": 46763,
+        "packets_recv": 48927,
+        "packet_errors": 0,
+        "packet_drops": 0
+      }
+    },
+    "prev_hash": "0d40a63283b44b35cc35b72449d46fb86d3cd970ede1822c8550ac35e16cb1e7",
+    "hash": "a995fc4183f081afa52273f1447fe2c9d1963676a1755086d9d3a077a7c98011"
+  },
+  {
+    "index": 109,
+    "timestamp": 1757672317.3138173,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.5,
+      "new": 0.55,
+      "reason": "benign_event"
+    },
+    "prev_hash": "a995fc4183f081afa52273f1447fe2c9d1963676a1755086d9d3a077a7c98011",
+    "hash": "f22b1b4ad31f13c5dd6ff55859aa7967986c6dadb8ebe47860fb5155b00aa58f"
+  },
+  {
+    "index": 110,
+    "timestamp": 1757672317.322394,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.55,
+      "new": 0.6000000000000001,
+      "reason": "forwarding_rate=1.00"
+    },
+    "prev_hash": "f22b1b4ad31f13c5dd6ff55859aa7967986c6dadb8ebe47860fb5155b00aa58f",
+    "hash": "516f2db2aecade8f9dfea3d4b200bb1af3a2c5ae255eeec0fab176e32ed95967"
+  },
+  {
+    "index": 111,
+    "timestamp": 1757672322.3399246,
+    "data": {
+      "event": "alert_received",
+      "device_id": "DESKTOP-BLT1V2B",
+      "type": "benign",
+      "metrics": {
+        "bytes_sent": 4524157,
+        "bytes_recv": 66650472,
+        "packets_sent": 46789,
+        "packets_recv": 48972,
+        "packet_errors": 0,
+        "packet_drops": 0
+      }
+    },
+    "prev_hash": "516f2db2aecade8f9dfea3d4b200bb1af3a2c5ae255eeec0fab176e32ed95967",
+    "hash": "b962093877fa111a9237cbdfcd286218d2eb3d496ed78dee0364c94b1c36b93d"
+  },
+  {
+    "index": 112,
+    "timestamp": 1757672322.3469222,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.6000000000000001,
+      "new": 0.6500000000000001,
+      "reason": "benign_event"
+    },
+    "prev_hash": "b962093877fa111a9237cbdfcd286218d2eb3d496ed78dee0364c94b1c36b93d",
+    "hash": "9d367947a8ad69153c7137323b763f661535cf77ba26863f3dc5c2160188e6b2"
+  },
+  {
+    "index": 113,
+    "timestamp": 1757672322.3519268,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.6500000000000001,
+      "new": 0.7000000000000002,
+      "reason": "forwarding_rate=1.00"
+    },
+    "prev_hash": "9d367947a8ad69153c7137323b763f661535cf77ba26863f3dc5c2160188e6b2",
+    "hash": "f0e6bab462586aaf97b7e0ceb994862478dd6c9e4c76fcfcb8f5634f84aade05"
+  },
+  {
+    "index": 114,
+    "timestamp": 1757672327.361599,
+    "data": {
+      "event": "alert_received",
+      "device_id": "DESKTOP-BLT1V2B",
+      "type": "benign",
+      "metrics": {
+        "bytes_sent": 4524406,
+        "bytes_recv": 66650677,
+        "packets_sent": 46793,
+        "packets_recv": 48975,
+        "packet_errors": 0,
+        "packet_drops": 0
+      }
+    },
+    "prev_hash": "f0e6bab462586aaf97b7e0ceb994862478dd6c9e4c76fcfcb8f5634f84aade05",
+    "hash": "cc867bd11aa6ddd01df3c25d1d895882bf4d21c513971589cb7f126ae56537ae"
+  },
+  {
+    "index": 115,
+    "timestamp": 1757672327.3773196,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.7000000000000002,
+      "new": 0.7500000000000002,
+      "reason": "benign_event"
+    },
+    "prev_hash": "cc867bd11aa6ddd01df3c25d1d895882bf4d21c513971589cb7f126ae56537ae",
+    "hash": "96140298232801f59ad02d7940007082d45003f6bf70b169d0dd89a986f8683b"
+  },
+  {
+    "index": 116,
+    "timestamp": 1757672327.3773196,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.7500000000000002,
+      "new": 0.8000000000000003,
+      "reason": "forwarding_rate=1.00"
+    },
+    "prev_hash": "96140298232801f59ad02d7940007082d45003f6bf70b169d0dd89a986f8683b",
+    "hash": "7f70db13c9763febaeb935fcf76d942e1c439344bbd240140e71344cecdf02dd"
+  },
+  {
+    "index": 117,
+    "timestamp": 1757672332.3989975,
+    "data": {
+      "event": "alert_received",
+      "device_id": "DESKTOP-BLT1V2B",
+      "type": "benign",
+      "metrics": {
+        "bytes_sent": 4524838,
+        "bytes_recv": 66652049,
+        "packets_sent": 46801,
+        "packets_recv": 48985,
+        "packet_errors": 0,
+        "packet_drops": 0
+      }
+    },
+    "prev_hash": "7f70db13c9763febaeb935fcf76d942e1c439344bbd240140e71344cecdf02dd",
+    "hash": "46d07e50cf4a97dae1fc04639586bb729afb5982d445031cd30490807dbbd697"
+  },
+  {
+    "index": 118,
+    "timestamp": 1757672332.4148252,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.8000000000000003,
+      "new": 0.8500000000000003,
+      "reason": "benign_event"
+    },
+    "prev_hash": "46d07e50cf4a97dae1fc04639586bb729afb5982d445031cd30490807dbbd697",
+    "hash": "2a1e297062db1f6ad9e68d067fb45c24f4cbe29e51bd7f863362c5863f8b6bb2"
+  },
+  {
+    "index": 119,
+    "timestamp": 1757672332.430677,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.8500000000000003,
+      "new": 0.9000000000000004,
+      "reason": "forwarding_rate=1.00"
+    },
+    "prev_hash": "2a1e297062db1f6ad9e68d067fb45c24f4cbe29e51bd7f863362c5863f8b6bb2",
+    "hash": "b1d2035f17036aed8d7445ae4d9ba2a9b70cfd929f473fe8b26fc86e055c14ae"
+  },
+  {
+    "index": 120,
+    "timestamp": 1757672337.4447713,
+    "data": {
+      "event": "alert_received",
+      "device_id": "DESKTOP-BLT1V2B",
+      "type": "benign",
+      "metrics": {
+        "bytes_sent": 4524838,
+        "bytes_recv": 66655803,
+        "packets_sent": 46801,
+        "packets_recv": 48997,
+        "packet_errors": 0,
+        "packet_drops": 0
+      }
+    },
+    "prev_hash": "b1d2035f17036aed8d7445ae4d9ba2a9b70cfd929f473fe8b26fc86e055c14ae",
+    "hash": "bb6184ed93015e2bfa44f27cdd9f522e4c33ce485d23dac566f3610fe7ed29ca"
+  },
+  {
+    "index": 121,
+    "timestamp": 1757672337.4604695,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.9000000000000004,
+      "new": 0.9500000000000004,
+      "reason": "benign_event"
+    },
+    "prev_hash": "bb6184ed93015e2bfa44f27cdd9f522e4c33ce485d23dac566f3610fe7ed29ca",
+    "hash": "cfa65fccc4a89d62d8993bde49bf58e55ec10f89d68bf5081241fa80517af5f4"
+  },
+  {
+    "index": 122,
+    "timestamp": 1757672337.4604695,
+    "data": {
+      "event": "trust_update",
+      "device_id": "DESKTOP-BLT1V2B",
+      "old": 0.9500000000000004,
+      "new": 1.0,
+      "reason": "forwarding_rate=1.00"
+    },
+    "prev_hash": "cfa65fccc4a89d62d8993bde49bf58e55ec10f89d68bf5081241fa80517af5f4",
+    "hash": "97d5961ec56eb7f778122ec73ab9c37bedc59cdc328ac7beb9b9b684237eb675"
+  }
+]
